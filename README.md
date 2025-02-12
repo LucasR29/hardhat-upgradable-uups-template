@@ -10,7 +10,7 @@ This is a template for creating upgradable smart contracts using AnyFlow. The pl
 # Usage
 
 1. Fork this repository
-2. Customize smart contract by editing the `contracts/Implementation_V1.sol` and `scripts/deploy.ts` files
+2. Customize smart contract by editing the `contracts/implementations/HelloWorld_V1.sol` and `scripts/deploy.ts` files
 3. Log into [AnyFlow](https://app.anyflow.pro)
 4. Select this repository
 5. Select your chains
