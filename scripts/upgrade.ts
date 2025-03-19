@@ -4,7 +4,7 @@ export async function main() {
     console.log('Deploying AnyflowHelloWorld_V1...')
 
     const args = [
-        "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4", // _initialOwner
+        "0xeAB3b6952F62668108B0F254bbC7400C83A9d62D", // _initialOwner
         "Hello, World 2!", // _helloMessage
     ] as const;
 
