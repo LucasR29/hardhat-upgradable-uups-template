@@ -5,9 +5,13 @@
   },
   "scripts": {
     "compile": "hardhat compile",
-    "deploy": "hardhat run ./scripts/deploy.ts",
+    "deploy": "hardhat run ./scripts/deploy-beacon.ts",
     "upgrade": "hardhat run ./scripts/upgrade.ts",
-    "hello": "hardhat run ./scripts/hello.ts"
+    "hello": "hardhat run ./scripts/hello.ts",
+    "deploy-beacon": "hardhat run ./scripts/deploy-beacon.ts",
+    "upgrade-beacon": "hardhat run ./scripts/upgrade-beacon.ts",
+    "deploy-multiple-proxies": "hardhat run ./scripts/deploy-multiple-proxies.ts",
+    "deploy-beacon-factory": "hardhat run ./scripts/deploy-beacon-factory.ts"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
